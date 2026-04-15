@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Running Passion Page</title>
+    <link rel="stylesheet" href="../css/runningstyles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <div class="nav">
+        <a href="index.html">← Back to About Me</a>
+    </div>
+
+    <div class="nav">
+        <a href="skiing.html">← Play Skiing Game</a>
+    </div>
+
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            <h1>Why I Love Running</h1>
+            <p>Running is more than exercise—it's a lifestyle.</p>
+        </div>
+
+        <!-- Anchor -->
+        <div class="section">
+            <a href="#training" class="btn">Jump to Training Plan ↓</a>
+        </div>
+
+        <!-- Image -->
+        <div class="section">
+            <h2>XC National Championships</h2>
+            <img src="assets/img/garmin running.jpeg" alt="">
+        </div>
+
+        <!-- Lists -->
+        <div class="section">
+            <h2>Steps to Become a Better Runner</h2>
+
+            <ol>
+                <li>Start with consistency
+                    <ul>
+                        <li>Run 3–4 times per week</li>
+                        <li>Keep runs easy</li>
+                    </ul>
+                </li>
+
+                <li>Improve endurance
+                    <ul>
+                        <li>Increase mileage gradually</li>
+                        <li>Run long once a week</li>
+                    </ul>
+                </li>
+
+                <li>Add speed training
+                    <ul>
+                        <li>Intervals</li>
+                        <li>Tempo runs</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <!-- Video -->
+        <div class="section">
+            <h2>Motivation Video</h2>
+            <div class="video-wrapper">
+                <iframe 
+                    src="https://www.youtube.com/embed/26Vhcxatsms"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+
+        <!-- Training -->
+        <div class="section" id="training">
+            <h2>Weekly Training Plan</h2>
+            <ul>
+                <li>Monday: Easy Run</li>
+                <li>Tuesday: Speed Workout</li>
+                <li>Wednesday: Rest</li>
+                <li>Thursday: Tempo Run</li>
+                <li>Friday: Easy Run</li>
+                <li>Saturday: Long Run</li>
+                <li>Sunday: Rest</li>
+            </ul>
+        </div>
+
+        <!-- Tableau -->
+        <div class="section">
+            <h2>Interactive Running Data</h2>
+
+            <div class='tableauPlaceholder' id='viz1776212776740' style='position: relative'>
+                <noscript>
+                    <a href='#'>
+                        <img alt='Running Data'
+                        src='https://public.tableau.com/static/images/Ru/RunningforOlympicGold/RunningforOlympicGold/1_rss.png'
+                        style='border: none' />
+                    </a>
+                </noscript>
+
+                <object class='tableauViz' style='display:none;'>
+                    <param name='host_url' value='https://public.tableau.com/' />
+                    <param name='name' value='RunningforOlympicGold/RunningforOlympicGold' />
+                    <param name='tabs' value='no' />
+                    <param name='toolbar' value='yes' />
+                </object>
+            </div>
+
+            <script>
+                var divElement = document.getElementById('viz1776212776740');
+                var vizElement = divElement.getElementsByTagName('object')[0];
+                vizElement.style.width = '100%';
+                vizElement.style.height = '600px';
+
+                var scriptElement = document.createElement('script');
+                scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                vizElement.parentNode.insertBefore(scriptElement, vizElement);
+            </script>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
